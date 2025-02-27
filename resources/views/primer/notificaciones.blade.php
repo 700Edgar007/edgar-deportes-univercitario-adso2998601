@@ -26,7 +26,7 @@
         <button><a href="{{ route('primer.create') }}">Partidos</a></button>
         {{-- <button><a href="{{ route('primer.show',0) }}">Resultados</a></button> --}}
         <button><a href="{{ route('primer.edit', 0) }}">Notificaciones</a></button>
-        <button><a href="{{ route('segundo.show', 0) }}">bolver al home</a></button>
+        <button><a href="{{ route('segundo.show', 0) }}">Volver al home</a></button>
     </nav>
 
     <div class="container">
@@ -53,7 +53,7 @@
 
             </tr>
             <tr>
-                <td contenteditable="true">LOS PARTIDOS SE SUPENDEN HASTA RPEVIO ABISO POR MULTIPLES LECIONES</td>
+                <td contenteditable="true">LOS PARTIDOS SE SUPENDEN HASTA RPEVIO AVISO POR MULTIPLES LECIONES</td>
             </tr>
             <tr>
                 <td> <button><a href="{{ route('primer.show', 0) }}">agregar</a></button> </td>

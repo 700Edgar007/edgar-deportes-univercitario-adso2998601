@@ -39,7 +39,7 @@
             <input type="number" id="telefono" name="telefono" placeholder="Introduce tu teléfono" required>
             
             <button type="submit">Enviar</button>
-            <button class="boton"><a href="{{ route('segundo.show',0) }}">bolver al home</a></button>
+            <button class="boton"><a href="{{ route('segundo.show',0) }}">Volver al home</a></button>
         </form>
     </div>
 </body>
